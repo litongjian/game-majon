@@ -1,3 +1,15 @@
+DROP SCHEMA majon;
+CREATE SCHEMA majon;
+DROP TABLE t_meta_card;
+CREATE TABLE t_meta_card
+(
+  idx INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  type INT(1) COMMENT '0-筒1-条2-万3-风',
+  val INT(1),
+  name VARCHAR(10)
+);
+CREATE UNIQUE INDEX t_meta_card_idx_uindex ON t_meta_card (idx);
+
 /*筒子*/
 INSERT INTO t_meta_card (type, val, name) VALUE (0,1,'1筒');
 INSERT INTO t_meta_card (type, val, name) VALUE (0,2,'2筒');
