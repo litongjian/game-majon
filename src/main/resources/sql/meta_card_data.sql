@@ -1,6 +1,7 @@
-DROP SCHEMA majon;
+DROP SCHEMA IF EXISTS majon;
 CREATE SCHEMA majon;
-DROP TABLE t_meta_card;
+USE majon;
+DROP TABLE IF EXISTS t_meta_card;
 CREATE TABLE t_meta_card
 (
   idx INT(11) PRIMARY KEY NOT NULL AUTO_INCREMENT,
