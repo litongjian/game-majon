@@ -1,7 +1,7 @@
-package game.majon.base.impl;
+package game.marjon.base.impl;
 
-import game.majon.base.CardPlayer;
-import game.majon.base.CardRule;
+import game.marjon.base.CardPlayer;
+import game.marjon.base.CardRule;
 
 /**
  * Created by Administrator on 2017/2/17.

@@ -1,9 +1,9 @@
-package game.majon.base;
+package game.marjon.base;
 
 import com.sun.istack.internal.NotNull;
-import game.majon.base.expr.CardValueErrorException;
-import game.majon.base.type.CardStatus;
-import game.majon.base.type.CardType;
+import game.marjon.base.expr.CardValueErrorException;
+import game.marjon.base.type.CardStatus;
+import game.marjon.base.type.CardType;
 
 /**
  * Created by Administrator on 2017/2/17.

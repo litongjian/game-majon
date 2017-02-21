@@ -1,4 +1,4 @@
-package game.majon.base.type;
+package game.marjon.base.type;
 
 /**
  * Created by Administrator on 2017/2/17.

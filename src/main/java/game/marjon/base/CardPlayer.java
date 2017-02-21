@@ -1,7 +1,7 @@
-package game.majon.base;
+package game.marjon.base;
 
 import com.sun.istack.internal.NotNull;
-import game.majon.base.type.PlayerStatus;
+import game.marjon.base.type.PlayerStatus;
 
 /**
  * Created by Administrator on 2017/2/17.
